@@ -1,0 +1,38 @@
+NOTES
+
+
+
+
+//---------------------------//
+
+
+HOME: 
+
+COUNTRY: 
+
+free form description + flex content
+list of all projects (links)
+stats: 
+- started in year
+- people served
+- no. of projects
+- key partners
+
+PARTNER: (get partner orgs from the spreadsheet VERSION COMPLETA)
+name
+website
+description
+
+PARTNER STORY: (not yet) 
+connect to partner
+
+put together side navigation and right sidebar like comps.
+
+What makes side navigation exist? Is editable? 
+Yes: create page template for each section (our work section, about us section, etc)
+register nav menu for each section
+create/edit in Menus UI
+assign menus to page templates, NOT user choice per page like Tobey's site
+
+
+

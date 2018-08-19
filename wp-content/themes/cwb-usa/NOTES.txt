@@ -1,0 +1,60 @@
+NOTES
+
+CiviCRM:
+
+1. /public_html/stage/stage/.. contains a couple js files that could not be loaded because subdomain
+2. /public_html/stage/wp-content/uploads/civicrm/civicrm.settings.php top of file: changes to default directories because subdomain
+
+CiviMail doesn't work because cron not running
+
+PayPal: may need temp merchant account
+
+Content: 
+Lat/long coordinates for projects didn't come through for all of them (see 8 projects on equator S of Ghana)
+Actually many custom fields didn't come through for more recent (since 1/2016) imports - does this matter? 
+
+
+//---------------------------//
+
+
+HOME: Video + wireframe from Ideaville
+fix the flash of backgroundimage
+video doesn't work on mobile because of the overlay text/cta
+
+OUR WORK SECTION
+
+COUNTRY: 
+
+free form description + flex content
+list of all projects (links)
+stats: 
+- started in year
+- people served
+- no. of projects
+- key partners
+
+PARTNER: (get partner orgs from the spreadsheet VERSION COMPLETA)
+name
+website
+description
+
+PARTNER STORY: (not yet) 
+connect to partner
+
+//put together side navigation and right sidebar like comps.
+
+What makes side navigation exist? Is editable? 
+Yes: create page template for each section (our work section, about us section, etc)
+register nav menu for each section
+create/edit in Menus UI
+assign menus to page templates, NOT user choice per page like Tobey's site
+
+So: 
+Our Work (top-level intro page for this section): Our Work page template (default for the section)
+Latest or Projects: Could be archive-project.php, Our Work page template (w/shortcode for special things?) or some other page template, over to AP on this
+Where We Work or Counntries: same as above
+All other secondary pages in this section: Our Work page template (default)
+
+
+
+

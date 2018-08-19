@@ -1,0 +1,20 @@
+a {
+	color: #f46145;
+	font-weight: 500;
+
+	&:visited {
+		color: #bf442d;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: #bf442d;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

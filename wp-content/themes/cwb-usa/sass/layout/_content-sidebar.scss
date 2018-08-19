@@ -1,0 +1,23 @@
+.content-area {
+	float: left;
+	margin: 0 (-$size__site-sidebar) 0 0;
+	width: $size__site-main;
+}
+
+.site-content {
+	max-width: 1200px; 
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 69px;
+	overflow: hidden;
+	&.with-hero {
+		margin-top: 0;
+	}
+	
+}
+
+#content-sidebar-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 48px;
+}

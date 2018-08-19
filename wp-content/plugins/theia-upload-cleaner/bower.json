@@ -1,0 +1,7 @@
+{
+    "name": "Theia Upload Cleaner",
+    "dependencies": {
+        "progressbar.js": "~1.0.0",
+        "jstree": "3.3.*"
+    }
+}

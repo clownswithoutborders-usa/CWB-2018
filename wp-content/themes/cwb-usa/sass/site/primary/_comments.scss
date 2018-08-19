@@ -1,0 +1,19 @@
+.comment-content a {
+	word-wrap: break-word;
+}
+.bypostauthor {
+	display: block;
+}
+
+.comment-list li {
+	background: #f5f5f5;
+	padding: 12px 24px 24px 12px;
+	article {
+		padding: 12px;
+	}
+	.children li {
+		background: #efefef;
+		padding: 12px;
+		margin-bottom: 12px;
+	}
+}

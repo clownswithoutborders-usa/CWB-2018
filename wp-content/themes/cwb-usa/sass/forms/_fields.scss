@@ -1,0 +1,50 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	padding: 3px;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+	padding: 0 1.5rem 0 .5rem;
+	option {
+		line-height: 1;
+		max-height:1rem;
+		font-family: arial, helvetica, sans-serif;
+	}
+}
+
+textarea {
+	width: 100%; 
+}
+
+
+.select2-container .select2-choice {
+	height: 38px!important;
+}
+#crm-container.crm-public .label {
+
+}
+.crm-container input[type="checkbox"], .crm-container input[type="radio"] {
+    transform: scale(2);
+}

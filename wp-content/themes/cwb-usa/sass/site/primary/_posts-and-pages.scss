@@ -1,0 +1,95 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em auto 0;
+	max-width: 1200px;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+
+.section {
+
+	// padding: 24px;
+}
+
+
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+    float: left!important;
+}
+
+
+.gallery .entry-header,
+.post-type-archive-gallery .page-header {
+	text-align: center;
+}
+
+.entry-header {
+	margin: 24px auto 0;
+	max-width: 1200px;
+}
+.page-template-page-full-width .entry-content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 1160px) {
+	.row .row {
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+}
+	.feat-img,
+	.feat-img.row,
+	.row.expanded .feat-img.row { 
+		float:left;
+		margin: 6px 24px 24px 0;
+	}
+	h2 {
+		clear:none;
+	}
+
+.member {
+	margin-bottom: 24px;
+	border-bottom: 1px solid #eee;
+	clear:both;
+	min-height: 275px; 
+}
+.team-member-name {
+	text-align:center;
+}
+.member-photo {
+	max-width: 300px;
+    margin: 0 auto 20px;
+}
+
+.single-project #primary {
+	//margin-left: 24%;
+} 

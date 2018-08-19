@@ -1,0 +1,51 @@
+.widget {
+	margin: 0 0 1.5em;
+	padding: 12px;
+	background: #f5f6a4;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+	ul {
+		margin-left: 1.5rem;
+	}
+}
+#secondary {
+	font-size: 1rem;
+}
+h3.widget-title {
+	font-size: 1.25rem;
+	line-height: 1.2;
+	margin: -12px -12px 12px;
+    padding: 12px;
+    background: #eeeae4;
+    text-align:center;
+}
+.widgetimg {
+	margin: -12px -12px 12px;
+}
+
+#stats_sidebar {
+	h4.year {
+		background: #bcbab8; //#a3d29c;
+		text-align:center;
+		color: #f4f6a3;
+		padding:8px;
+		margin-bottom:0;
+	}
+	.stat-number-wrap {
+		display:flex;
+		background: #f36523;
+		margin-bottom:12px;
+	}
+	.stat-number {
+		color: white;
+		text-align:center;
+		flex-grow: 1;
+    	padding: 12px;
+		h4 {
+			margin-bottom:0;
+		}
+	}
+}

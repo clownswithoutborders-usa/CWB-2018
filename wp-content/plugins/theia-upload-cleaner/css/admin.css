@@ -1,0 +1,86 @@
+.theiaUploadCleaner_adminTitle {
+  padding-bottom: 12px !important;
+  vertical-align: middle; }
+  .theiaUploadCleaner_adminTitle a {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0; }
+
+.theiaUploadCleaner_adminAboutTable {
+  margin: -1em 0 0 0; }
+  .theiaUploadCleaner_adminAboutTable .theiaUploadCleaner_adminAboutTable_logo {
+    display: inline-block;
+    margin: 5px 0 0 17px; }
+  .theiaUploadCleaner_adminAboutTable td {
+    white-space: nowrap; }
+
+.theiaUploadCleaner_adminLogo {
+  float: right; }
+
+.theiaUploadCleaner_news {
+  width: 100%;
+  height: 462px;
+  border: 1px solid #ccc;
+  background: #fff; }
+
+.settings_page_tuc #progressbar {
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto; }
+  .settings_page_tuc #progressbar .progressbar-text {
+    font-size: 30px; }
+.settings_page_tuc .button-delete-permanently {
+  text-decoration: none;
+  color: #fff;
+  border-color: #AA0000;
+  background: #D20000;
+  -webkit-box-shadow: inset 0 1px 0 rgba(230, 120, 120, 0.5), 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 0 rgba(230, 120, 120, 0.5), 0 1px 0 rgba(0, 0, 0, 0.15); }
+  .settings_page_tuc .button-delete-permanently:hover {
+    color: #fff;
+    border-color: #AA0000;
+    background: #CD0000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(230, 120, 120, 0.6);
+    box-shadow: inset 0 1px 0 rgba(230, 120, 120, 0.6); }
+.settings_page_tuc .cleanupContainer > tbody > tr > td {
+  padding: 0; }
+.settings_page_tuc .cleanupContainer .cleanupStatus tr.error * {
+  color: red; }
+.settings_page_tuc .cleanupContainer .cleanupStatus th {
+  padding-left: 10px; }
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.rotating svg {
+  transform-origin: 50% 50%;
+  -webkit-animation: rotating 6s linear infinite;
+  -moz-animation: rotating 6s linear infinite;
+  -ms-animation: rotating 6s linear infinite;
+  -o-animation: rotating 6s linear infinite;
+  animation: rotating 6s linear infinite; }
