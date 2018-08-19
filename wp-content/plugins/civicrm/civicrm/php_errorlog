@@ -1,4 +1,0 @@
-[01-Apr-2017 04:00:32 America/Chicago] PHP Warning:  file_get_contents(http://latest.civicrm.org/stable.php?format=json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in /home/clownswi/public_html/stage/wp-content/plugins/civicrm/civicrm/CRM/Utils/VersionCheck.php on line 397
-[02-Apr-2017 05:00:30 America/Chicago] PHP Warning:  file_get_contents(http://latest.civicrm.org/stable.php?format=json): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in /home/clownswi/public_html/stage/wp-content/plugins/civicrm/civicrm/CRM/Utils/VersionCheck.php on line 397
